@@ -1,0 +1,13 @@
+from SimpleCV import Image
+
+template = Image('San-Francisco-49ers-Logo.jpg')
+
+img = Image('t-shirt.jpeg')
+
+match = img.findKeypointMatch(template)
+
+match.draw(width=3)
+
+print(3)
+
+img.show() 
