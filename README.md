@@ -4,7 +4,9 @@ PIXLEE Computer Vision System
 
 The purpose of this project is to provide PIXLEE with a system that will take a template, and filter photos from a clients social media stream by that template.  The example data used for this system is from Coke, and the templates used to filter were a picture of a can, and a picture of the coke logo.  A visualization of the original and filtered images was created by Greg Palmer- https://github.com/g-palmer/, and is viewable at http://computer-vision-example-pixlee.nodejitsu.com/.
 
-PIXLEE provides technologies that enable clients to collect, display and measure user-generated photos, as well as leverage their photos to drive traffic and increase sales.  Currently photos are filtered manually, and PIXLEE has no methodology to automatically select images that contain a certain image.  I developed a script that does this, and uploaded it to a ubuntu server connected to S3 buckets that allow for easy access to templates, and export of filtered photos.       
+PIXLEE provides technologies that enable clients to collect, display and measure user-generated photos, as well as leverage their photos to drive traffic and increase sales.  Currently photos are filtered manually, and PIXLEE has no methodology to automatically select images that contain a certain image.  I developed a script that does this, and uploaded it to a ubuntu server connected to S3 buckets that allow for easy access to templates, and export of filtered photos.
+
+Look at MASTER_FINAL for a version of the final script that has been modified to protect PIXLEE's privacy.
 
 Filtering Process-
 
