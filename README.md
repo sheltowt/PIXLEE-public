@@ -23,7 +23,7 @@ Command Line Inputs-
 python master_FINAL.py 400 ‘http://APIKEYANDROOT=‘ 's3://PIXLEE_HACKREACTOR/can.jpg’ ‘s3://PIXLEE_HACKREACTOR/logo.jpg’
 
 1. master_FINAL.py- name of most recent update of script
-2. 400- the number of photos that you want filtered
+2. 400- the number of photos to filter
 3. ‘http://APIKEYANDROOT=‘ - root of the API call
 4. 's3://PIXLEE_HACKREACTOR/can.jpg’- location of the first template
 5. ‘s3://PIXLEE_HACKREACTOR/logo.jpg’- location of the second template
